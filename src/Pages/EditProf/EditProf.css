@@ -1,0 +1,150 @@
+.topbarHome {
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.editMain {
+    display: flex;
+}
+
+.editContent {
+    flex: 9;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.changeName {
+    margin-top: 50px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.changeNameLetter {
+    margin-right: 10px;
+    margin-right: 300px;
+}
+
+.inputName {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5em;
+    background-color: powderblue;
+    width: 400px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.changePass {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.changePassLetter {
+    font-weight: bold;
+}
+
+.inputPass{
+    border: none;
+    border-radius: 5em;
+    background-color: lightsalmon;
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+.inputPassCheck{
+    border: none;
+    border-radius: 5em;
+    background-color: lightcoral;
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+.img {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.changeIcon {
+    margin-top: 10px;
+    border-radius: 5em;
+    padding: 10px;
+    background-color: lightpink;
+    width: 200px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.selectedFile{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.intro {
+    height: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introLetter {
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+}
+
+.inputGreeting {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5em;
+    background-color: aquamarine;
+    width: 600px;
+    height: 100px;
+    padding-left: 15px;
+}
+
+.keep {
+    margin-top: 70px;
+    border: none;
+    border-radius: 5em;
+    padding: 10px;
+    background-color: lightsteelblue;
+    width: 180px;
+    letter-spacing: 5px;
+}
+
+
+.changed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.warning {
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+.sidebarEdit {
+    flex: 3;
+    right: 0;
+}
