@@ -1,0 +1,58 @@
+.TopbarUpper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    top: 0;
+    z-index: 100;
+}
+
+.TopbarIcon {
+    flex: 4;
+}
+
+.topIcon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.topIconNull {
+    border-radius: 50%;
+    margin-left: 7px;
+    margin-top: 7px;
+    width: 35px !important;
+    height: 35px !important;
+    color: gray;
+}
+
+.TopbarCenter {
+    flex: 4;
+    text-align: center;
+}
+
+.TopbarHome {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top:20px;
+    display: inline-block;
+}
+
+.TopbarRight {
+    flex: 4;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 13px;
+}
+
+.logoutIcon {
+    color: gray;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.SettingIcon:hover {
+    color: black;
+}

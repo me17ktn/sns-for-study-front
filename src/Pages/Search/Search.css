@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+}
+
+.searchWrapper {
+    flex: 9;
+}
+
+.inputSearch {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.searchInput {
+    border: none;
+    width: 60%;
+    background-color: cornsilk;
+    border-radius: 5em;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.searchBtn {
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notFound {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sidebarSearch {
+    flex: 3;
+}

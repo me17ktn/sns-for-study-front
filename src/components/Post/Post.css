@@ -1,0 +1,177 @@
+.message {
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.messageIcon {
+    flex: 1;
+}
+
+.userIcon {
+    background-color: #f5f5f5;
+    width: 70px !important;
+    height: 70px !important;
+    margin-left: 10px;
+    margin-top: 17px;
+    border-radius: 50%;
+}
+
+.userIconNull {
+    background-color: #f5f5f5;
+    width: 70px !important;
+    height: 70px !important;
+    margin-left: 10px;
+    margin-top: 17px;
+    border-radius: 50%;
+    color: gray;
+}
+
+.messageInfo{
+    flex: 10;
+    margin-left: 15px;
+}
+
+.upperInfo {
+    height: 20px;
+}
+
+.username {
+     width: 10em;
+}
+
+.nameLetter {
+    font-weight: bold;
+    color: black;
+}
+
+.timestamp {
+    font-size: small;
+    color: gray;
+    padding: 0;
+    margin-right: 10px;
+    text-align: right;
+    flex: 2;
+}
+
+.colonWrapper {
+    margin-right: 20px;
+}
+
+.colon {
+    cursor: pointer;
+    color: black;
+    flex: 1;
+}
+
+.editPost {
+    z-index: 100;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(200, 200, 200, 0.2);
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.editLink {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.editLetter {
+    font-size: 15px;
+}
+
+.middleInfo {
+    width: 50%;
+    display: flex;
+}
+
+.subject {
+    color: black;
+    width: 300px;
+}
+
+.time {
+    color: black;
+    margin-left: 40px;
+}
+
+.messageDesc {
+    width: 95%;
+    height: 52%;
+    background-color: #f5f5f5;
+    border-radius: 5rem;
+}
+
+.messageText {
+    padding-left: 20px;
+    padding-top: 16px;
+    color: black;
+}
+
+.bottomInfo {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.thumb {
+    color: gray;
+    cursor: pointer;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.thumbLiked {
+    color: crimson;
+    cursor: pointer;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.likeNumber {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.thumb:hover {
+    color: black;
+}
+
+.comment {
+    color: gray;
+    cursor: pointer;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.commentNumber {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.comment :hover {
+    color: black;
+}
+
+.timelineHr {
+    margin-top: 30px;
+    color: black;
+}

@@ -1,0 +1,17 @@
+.topbarFollower {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+}
+
+.follwers {
+    flex: 9;
+}
+
+.sidebar {
+    flex: 3;
+}
