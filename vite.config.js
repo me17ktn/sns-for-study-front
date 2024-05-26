@@ -5,12 +5,12 @@ import dotenv from "dotenv"
 dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
-  // build: {
-  //   manifest: true,
-  //   rollupOptions: {
-  //     input: "./src/main.jsx"
-  //   }
-  // },
+  build: {
+    manifest: true,
+    rollupOptions: {
+      input: "./src/main.jsx"
+    }
+  },
   define: {
     'process.env': process.env
   },
