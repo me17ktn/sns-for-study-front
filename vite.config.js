@@ -25,5 +25,5 @@ export default defineConfig({
     }
   },
   plugins: [react()],
-  base:"sns-for-study-front"
+  base:"./"
 })
