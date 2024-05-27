@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: "./src/main.jsx"
     },
-    outDir: "/front/"
+    outDir: './dist'
   },
   define: {
     'process.env': process.env
@@ -26,5 +26,5 @@ export default defineConfig({
     }
   },
   plugins: [react()],
-  base:"./"
+  base:"/"
 })
