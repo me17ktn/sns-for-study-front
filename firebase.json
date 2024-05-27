@@ -8,7 +8,7 @@
     ],
     "rewrites":[ {
       "sourse": "**",
-      "destiation": "/src/main.jsx"
+      "destiation": "/index.html"
     } ]
   }
 }
