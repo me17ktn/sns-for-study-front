@@ -9,7 +9,8 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       input: "./src/main.jsx"
-    }
+    },
+    outDir: "/front/"
   },
   define: {
     'process.env': process.env
